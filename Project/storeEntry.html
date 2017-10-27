@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<script src="xmlLoader.js"></script>
+<script type="text/javascript">
+  function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+      vars[key] = value;
+    });
+    return vars;
+  }
+
+  var gameVar = getUrlVars()["id"]
+
+  if(gameVar == null){
+    console.log("Page attempting to load without id.");
+    console.log("Loading failsafe page");
+    gameVar = 'test';
+  } else {
+    console.log(String(gameVar))
+  }
+
+  loadGameXML(gameVar, false, null)
+</script>
+
+<body>
+  <div class="gamePage">
+
+    <div id="gameCover"></div>
+    <div id=quickInfo>
+        <p id="gameGenre">Genre: </p>
+        <p id="gameRating">Rating: </p>
+        <p id="gameRelease">Release Date: </p>
+        <p id="gamePrice">Price: </p>
+    </div>
+    <div id="content">
+      <h1 id="gameName"></h1>
+      <p id="gameInfo"></p>
+    </div>
+
+  </div>
+
+
+
+</body>
+</html>
