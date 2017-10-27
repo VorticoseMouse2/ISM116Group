@@ -65,7 +65,7 @@ function loadGameBanner(gameToLoad) {
   var gameImg = document.createElement("img");
   var gameDescription = document.createElement("p")
 
-  clickableDiv.setAttribute('href', 'test.html?id=' + gameToLoad);
+  clickableDiv.setAttribute('href', 'storeEntry.html?id=' + gameToLoad);
   clickableDiv.setAttribute('id', 'banner');
   gameDiv.setAttribute('id', 'bannerDiv');
   gameImg.setAttribute('height', '64');

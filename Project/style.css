@@ -1,0 +1,50 @@
+.gamePage{
+  background-color: Silver;
+}
+
+.gamePage img{
+  margin: 5px 5px 5px 5px;
+  float: left;
+}
+
+#content{
+  margin: 5px 5px 5px 5px;
+  min-height: 300px;
+  width: 80%;
+}
+
+#quickInfo{
+  margin: 5px 5px 5px 5px;
+  float: right;
+  border: 1px solid;
+  padding: 2px 2px 2px 2px;
+}
+
+#banner{
+  padding: 5px 5px 5px 5px;
+
+}
+
+#bannerDiv{
+  border: 1px solid Black;
+}
+
+#bannerImg{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 5px 5px 5px;
+  margin-right: auto;
+}
+
+#bannerTitle{
+  width: 10%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#bannerDesc{
+  width: 33%;
+  display: inline-block;
+  vertical-align: middle;
+}
