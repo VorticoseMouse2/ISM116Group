@@ -43,7 +43,6 @@ function fillData(xml) {
 
   var img = document.createElement("img");
   img.src = cover;
-  img.setAttribute('height', '256px')
 
   //fill the data
   gameTitle.appendChild(title);

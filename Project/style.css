@@ -1,23 +1,30 @@
 .gamePage{
-  background-color: Silver;
+  background-color: #ffffff;
 }
 
 .gamePage img{
   margin: 5px 5px 5px 5px;
-  float: left;
+  height: 215px;
+  width: auto;
 }
 
 #content{
   margin: 5px 5px 5px 5px;
-  min-height: 300px;
+  min-height: 400px;
   width: 80%;
+  text-align: center;
 }
 
 #quickInfo{
   margin: 5px 5px 5px 5px;
-  float: right;
   border: 1px solid;
   padding: 2px 2px 2px 2px;
+  min-width: 20%;
+}
+
+#leftBanner{
+  float: right;
+  height: auto;
 }
 
 #banner{
@@ -47,4 +54,34 @@
   width: 33%;
   display: inline-block;
   vertical-align: middle;
+}
+
+body{
+  min-height: 600px;
+  height: 100%;
+  background: linear-gradient(#3366ff, #ffffff);
+  background-repeat: no-repeat;
+}
+
+header{
+  text-align: center;
+}
+
+nav{
+  background-color: #ffffff;
+  width: 10%;
+  float: left;
+    height: auto;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav ul{
+  list-style: none;
+}
+
+main{
+  margin-left: 11%;
 }
