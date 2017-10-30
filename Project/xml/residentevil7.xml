@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <title>Resident Evil 7 Biohazard</title>
+  <description>
+    Fear and isolation seep through the walls of an abandoned southern farmhouse.
+    "7" marks a new beginning for survival horror with the “Isolated View” of the visceral new first-person perspective.
+  </description>
+  <cover>images/residentevil7.jpg</cover>
+  <genre>Survival Horror, First Person Shooter</genre>
+  <rating>83/100</rating>
+  <release>1/24/2017</release>
+  <price>$59.99</price>
+</game>

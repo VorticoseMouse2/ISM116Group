@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <title>For Honor</title>
+  <description>
+     Carve a path of destruction through an intense, believable battlefield in For Honor.
+  </description>
+  <cover>images/forhonor.jpg</cover>
+  <genre>Mideval, Action</genre>
+  <rating>76/100</rating>
+  <release>2/14/2017</release>
+  <price>$59.99</price>
+</game>

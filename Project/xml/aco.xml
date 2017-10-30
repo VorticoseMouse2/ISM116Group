@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <title>Assassin's Creed Origins</title>
+  <description>
+    ASSASSIN’S CREED® ORIGINS IS A NEW BEGINNING. Ancient Egypt, a land of majesty and intrigue, is disappearing in a ruthless fight for power.
+  </description>
+  <cover>images/aco.jpg</cover>
+  <genre>Open World, Assassin, Action</genre>
+  <rating>82/100</rating>
+  <release>10/27/2017</release>
+  <price>$59.99</price>
+</game>
