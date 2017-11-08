@@ -29,7 +29,6 @@
 
 #banner{
   padding: 5px 5px 5px 5px;
-
 }
 
 #bannerDiv{
@@ -48,6 +47,8 @@
   display: inline-block;
   vertical-align: middle;
   text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #bannerDesc{
