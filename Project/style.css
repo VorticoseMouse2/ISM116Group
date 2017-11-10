@@ -22,6 +22,10 @@
   min-width: 20%;
 }
 
+#gameGenre, #gameRating, #gameRelease, #gamePrice{
+  color: #000000;
+}
+
 #leftBanner{
   float: right;
   height: auto;
@@ -29,6 +33,7 @@
 
 #banner{
   padding: 5px 5px 5px 5px;
+
 }
 
 #bannerDiv{
@@ -47,8 +52,6 @@
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 #bannerDesc{
@@ -57,26 +60,69 @@
   vertical-align: middle;
 }
 
+#headerImgR{
+  float: right;
+  width: 25%;
+  height: auto;
+}
+
+#headerImgL{
+  float: left;
+  width: 25%;
+  height: auto;
+}
+
+#conventionHeader{
+  border: 1px solid #FFFFFF;
+}
+
+#gameInfo{
+  color:#000000;
+}
+
 body{
   min-height: 600px;
   height: 100%;
-  background: linear-gradient(#3366ff, #ffffff);
+  background: linear-gradient(#ff6201, #222222);
   background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2{
+  color: #FFFFFF;
+}
+
+h3{
+  color: #FFFFFF;
 }
 
 header{
   text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+  height: 220px;
 }
 
 nav{
-  background-color: #ffffff;
-  width: 10%;
+  background-color: #c0c0c0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  position: fixed;
+  border-style: groove;
+  border-color: #000000;
+  width: 12.5%;
   float: left;
-    height: auto;
+  height: auto;
 }
 
 nav a{
   text-decoration: none;
+  color: #ff6201;
 }
 
 nav ul{
@@ -84,5 +130,27 @@ nav ul{
 }
 
 main{
-  margin-left: 11%;
+  margin-left: 15%;
+}
+
+p{
+  color: #FFFFFF;
+}
+
+table{
+  color: #FFFFFF;
+  border-collapse: collapse;
+}
+
+td{
+  padding-right: 25px;
+}
+
+label{
+  color: #FFFFFF;
+}
+
+footer{
+  text-align: center;
+  color: #FFFFFF;
 }
