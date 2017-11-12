@@ -1,11 +1,19 @@
 .gamePage{
-  background-color: #ffffff;
+  background-color: #dddddd;
 }
 
 .gamePage img{
   margin: 5px 5px 5px 5px;
   height: 215px;
   width: auto;
+}
+
+.indexLink {
+    color: #cccccc;
+}
+
+.indexLink:hover{
+  color: #ffffff;
 }
 
 #content{
@@ -33,11 +41,15 @@
 
 #banner{
   padding: 5px 5px 5px 5px;
-
 }
 
 #bannerDiv{
   border: 1px solid Black;
+  background-color: #c0c0c0;
+}
+
+#bannerDiv:hover{
+  border: 1px solid White;
 }
 
 #bannerImg{
@@ -52,12 +64,16 @@
   display: inline-block;
   vertical-align: middle;
   text-align: center;
+  margin-left: 15px;
+  color: #000000;
 }
 
 #bannerDesc{
   width: 33%;
   display: inline-block;
   vertical-align: middle;
+  margin-left: 15px;
+  color: #000000;
 }
 
 #headerImgR{
@@ -125,8 +141,16 @@ nav a{
   color: #ff6201;
 }
 
+nav a:hover{
+  color: #ffffff;
+}
+
 nav ul{
   list-style: none;
+}
+
+nav li{
+    margin-bottom: 15px;
 }
 
 main{
